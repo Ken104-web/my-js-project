@@ -25,4 +25,28 @@ if (mark > 100 || mark < 0) {
   }
 
   console.log(`Grade: ${grade}`);
+
 }
+function everyDemeritPoint(speed){
+     let speedLimit = 70;
+    let kmPerDemerit = 5;
+    let maxDemerit = 12;
+    // calc the num of km over the speed limit
+    let speedDifference = speed - speedLimit;
+    // if the driver was speeding
+    if (speed <= speedLimit) {
+        console.log('Ok');
+        return; //No demerit points are given,end of function
+    }
+    //calc Demerit points
+    let demeritPoints = Math.floor(speedDifference / kmPerDemerit);
+    // check if the driver's licence should be suspende
+    if (demeritPoints > maxDemerit) {
+        console.log('License suspended');
+
+    } else{
+        console.log('Points: ' + demeritPoints);
+    }
+}
+everyDemeritPoint(10);
+
