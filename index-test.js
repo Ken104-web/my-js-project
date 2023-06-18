@@ -12,3 +12,4 @@ else if{
     more than 12-points 
     print 'License suspended
 }*/
+//challenge 3

@@ -40,7 +40,7 @@ function everyDemeritPoint(speed){
     }
     //calc Demerit points
     let demeritPoints = Math.floor(speedDifference / kmPerDemerit);
-    // check if the driver's licence should be suspende
+    // check if the driver's licence should be suspended
     if (demeritPoints > maxDemerit) {
         console.log('License suspended');
 
@@ -49,4 +49,25 @@ function everyDemeritPoint(speed){
     }
 }
 everyDemeritPoint(10);
+
+let basicSalary =  40000; 
+let benefits = 25000; 
+// calc of Net salary
+function calcNetSalary(basicSalary, benefits) {
+  let grossSalary = basicSalary + benefits;
+  let nhifDeductions = 600; //example of NHIF
+  let nssfDeductions = 300; // example of NSSF
+const payee = grossSalary / 100;
+const netSalary = grossSalary - payee - nhifDeductions - nssfDeductions;
+return{
+  netSalary: netSalary,
+  payee: payee,
+  nhifDeductions: nhifDeductions,
+  nssfDeductions: nssfDeductions,
+};
+
+}
+const salary = calcNetSalary(basicSalary, benefits);
+console.log('Net Salary', salary.netSalary);
+
 
