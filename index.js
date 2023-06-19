@@ -1,5 +1,5 @@
 let marks = [77, 84,  32, 79, 0, 45, 64]
-const mark = parseInt(prompt("Enter the student's mark (between 0 and 100):"));
+const mark = parseInt(prompt(alert("Enter the student's mark (between 0 and 100):")));
 // servse the purpose of allowing the user to enter a mark and storing the output in the variable
 if (mark > 100 || mark < 0) {
   console.log("Input is Non-valid! Marks should range between 0 and 100.");
@@ -24,7 +24,7 @@ if (mark > 100 || mark < 0) {
       grade = 'E';  // For any other mark less than 40, assign grade E
   }
 
-  console.log(`Grade: ${grade}`);
+alert(`Grade: ${grade}`);
 
 }
 function everyDemeritPoint(speed){
@@ -35,20 +35,20 @@ function everyDemeritPoint(speed){
     let speedDifference = speed - speedLimit;
     // if the driver was speeding
     if (speed <= speedLimit) {
-        console.log('Ok');
+        alert('Ok');
         return; //No demerit points are given,end of function
     }
     //calc Demerit points
     let demeritPoints = Math.floor(speedDifference / kmPerDemerit);
     // check if the driver's licence should be suspended
     if (demeritPoints > maxDemerit) {
-        console.log('License suspended');
+        alert('License suspended');
 
     } else{
-        console.log('Points: ' + demeritPoints);
+        alert('Points: ' + demeritPoints);
     }
 }
-everyDemeritPoint(10);
+everyDemeritPoint(98);
 
 let basicSalary =  40000; 
 let benefits = 25000; 
@@ -68,6 +68,6 @@ return{
 
 }
 const salary = calcNetSalary(basicSalary, benefits);
-console.log('Net Salary', salary.netSalary);
+alert('Net Salary', salary.netSalary);
 
 
