@@ -2,7 +2,7 @@ let marks = [77, 84,  32, 79, 0, 45, 64]
 const mark = parseInt(prompt(alert("Enter the student's mark (between 0 and 100):")));
 // servse the purpose of allowing the user to enter a mark and storing the output in the variable
 if (mark > 100 || mark < 0) {
-  console.log("Input is Non-valid! Marks should range between 0 and 100.");
+  alert("Input is Non-valid! Marks should range between 0 and 100.");
 } else {
   let grade;
 
