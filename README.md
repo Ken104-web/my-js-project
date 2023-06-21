@@ -40,12 +40,12 @@ If the demerit points exceed the maximum, the function logs 'License suspended',
 If the demerit points are within the acceptable range, the function logs 'Points: ' followed by the calculated demerit points.
 
 # How to run Locally
-    All you need is 
- Phone or a laptop
+All you need is 
+Phone or a laptop
 
  # Installation used 
   Run to the Github page, fork and clone the remote repository using the link below
-  "git@github.com:Ken104-web/js-assignments.git."
+          "git@github.com:Ken104-web/js-assignments.git."
   Open a code editor and have fun
   # technology used
   html
