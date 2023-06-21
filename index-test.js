@@ -13,3 +13,7 @@ else if{
     print 'License suspended
 }*/
 //challenge 3
+
+//How to run locally
+//installation used
+//Tech used(the type of code used)
