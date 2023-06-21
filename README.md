@@ -12,6 +12,20 @@ Finally the determined grade is displayed to the user using `console.log()`.
 Coded by Kenneth Mwangi. 
 Licenced by GPL license.
 
+# How to run Locally
+    All you need is 
+ Phone or a laptop
+
+ # Installation used 
+  Run to the Github page, fork and clone the remote repository using the link below
+  "git@github.com:Ken104-web/js-assignments.git."
+  Open a code editor and have fun
+  # technology used
+  html
+  css
+  javascript
+
+
 # Speed Detector
 This JavaScript function calculates demerit points for a driver based on their speed and the speed limit.
  
@@ -24,7 +38,22 @@ If the driver was speeding, the function calculates the demerit points by dividi
 It checks if the calculated demerit points exceed the maximum allowed (maxDemerit).
 If the demerit points exceed the maximum, the function logs 'License suspended', indicating that the driver's license should be suspended.
 If the demerit points are within the acceptable range, the function logs 'Points: ' followed by the calculated demerit points.
-# Author and License
+
+# How to run Locally
+    All you need is 
+ Phone or a laptop
+
+ # Installation used 
+  Run to the Github page, fork and clone the remote repository using the link below
+  "git@github.com:Ken104-web/js-assignments.git."
+  Open a code editor and have fun
+  # technology used
+  html
+  css
+  javascript
+
+
+ # Author and License
 Coded by Kenneth Mwangi
 licensed by GPL
 
@@ -51,6 +80,19 @@ Set the basicSalary and benefits variables to the desired values.
 Run the code in an environment that supports JavaScript.
 The calculated net salary will be displayed in the console.
 Feel free to modify the code to suit your specific requirements, such as changing the example deductions or adding additional functionality.
+
+# How to run Locally
+    All you need is 
+ Phone or a laptop
+
+ # Installation used 
+  Run to the Github page, fork and clone the remote repository using the link below
+  "git@github.com:Ken104-web/js-assignments.git."
+  Open a code editor and have fun
+  # technology used
+  html
+  css
+  javascript
 
 # Author & License
 coded by Kenneth Mwangi
