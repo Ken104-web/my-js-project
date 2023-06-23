@@ -8,9 +8,9 @@ If the mark entered is within range, the code proceeds to evaluate the correspon
 The `switch (true)` statement is used to evaluate each `case`.
 Depending on the value of `mark`, the code assigns appropriate grade to the `grade` variable inside each `case`
 Finally the determined grade is displayed to the user using `console.log()`.
-# Author & License
+# Author 
 Coded by Kenneth Mwangi. 
-Licenced by GPL license.
+
 
 # How to run Locally
 All you need is: 
@@ -53,9 +53,31 @@ Phone or a laptop
   javascript
 
 
- # Author and License
+ # Author
 Coded by Kenneth Mwangi
-licensed by GPL
+  # licence
+MIT License
+
+Copyright (c) [2023] [kenneth Mwangi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 # Challenge 3: Net Salary Calcu;ator
 It basically calculates the amount of salary of an Individual
@@ -94,8 +116,29 @@ Phone or a laptop
   css
   javascript
 
-# Author & License
+# Author 
 coded by Kenneth Mwangi
-licensed by GPL license
+# license
+MIT License
+
+Copyright (c) [2023] [kenneth mwangi]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
