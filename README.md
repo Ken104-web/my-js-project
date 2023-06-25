@@ -18,7 +18,9 @@ Phone or a laptop
 
  # Installation used 
   Run to the Github page, fork and clone the remote repository using the link below
-      "git@github.com:Ken104-web/js-assignments.git."
+
+    "git@github.com:Ken104-web/js-assignments.git."
+
   Open a code editor and have fun
   # technology used
   html
@@ -74,6 +76,7 @@ nssfDeductions: the example NSSF deductions
 Outside the function, the code calls calcNetSalary with the provided basicSalary and benefits and stores the result in the salary variable. It then logs the net salary value to the console.
 
 Usage
+
 To use the code, follow these steps:
 
 Set the basicSalary and benefits variables to the desired values.
@@ -87,8 +90,11 @@ Phone or a laptop
 
  # Installation used 
   Run to the Github page, fork and clone the remote repository using the link below
+ 
          "git@github.com:Ken104-web/js-assignments.git."
+ 
   Open a code editor and have fun
+
   # technology used
   html
   css
